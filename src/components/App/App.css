@@ -1,0 +1,60 @@
+/* Universal Styles */
+
+html {
+  font-size: 18px;
+  background-image: url('background_search_desktop.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 769px) {
+  html {
+    font-size: 15px;
+    width: 110%;
+    background-image: url('background_search_desktop_chica.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+input:focus {
+  outline: none;
+}
+
+/* Reusable Component - Image Container */
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background: #000;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+/* App Styles */
+
+.App {
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+  margin: 0px;
+  padding: .66rem 0;
+  text-align: center;
+  background-color: red;
+  font-family: 'Chewy', cursive;
+  font-size: 50px;
+  color: #fff;
+}
+
+footer {
+  background-color: red;
+}
